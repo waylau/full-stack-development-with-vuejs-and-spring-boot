@@ -1,0 +1,35 @@
+// 使用的插件
+plugins {
+	id 'org.springframework.boot' version '2.6.6'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.waylau.springboot'
+
+// 指定了生成的编译文件的版本，默认是打成了 jar 包
+version = '0.0.1-SNAPSHOT'
+
+// 指定编译 .java 文件的 JDK 版本
+sourceCompatibility = '1.8'
+
+// 使用了Maven中央仓库（也可以指定其他仓库）
+repositories {
+	// mavenCentral()
+	// 设置国内镜像
+	maven { url "https://maven.aliyun.com/nexus/content/groups/public/" }
+}
+
+// 依赖关系
+dependencies {
+	// 该依赖用于编译阶段
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	
+	// 该依赖用于测试阶段
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+// 使用测试
+tasks.named('test') {
+	useJUnitPlatform()
+}
