@@ -56,8 +56,10 @@
 * [使用watchEffect侦听变化、停止侦听](samples/vue-samples/reactivity-computed-watcher-watcheffect)
 * [使用watch侦听多个数据源、数组](samples/vue-samples/reactivity-computed-watcher-watch)
 * [静态路由](samples/vue-samples/routing-basic)
-* [使用Ant Design Vue](samples/vue-samples/ant-design-vue-button)
-* [使用Naive UI](samples/vue-samples/naive-ui-button)
+* [快速开启第一个Spirng Boot项目](samples/spring-boot-samples/initializr-start)
+* [进行Spring Boot项目的开发及测试](samples/spring-boot-samples/hello-world)
+* [JSON类型的处理](samples/spring-boot-samples/media-type-json)
+* [XML类型的处理](samples/spring-boot-samples/media-type-xml)
 
 
 ## 联系作者:
