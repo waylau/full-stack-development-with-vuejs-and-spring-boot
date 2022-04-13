@@ -61,6 +61,7 @@
 * [JSON类型的处理](samples/spring-boot-samples/media-type-json)
 * [XML类型的处理](samples/spring-boot-samples/media-type-xml)
 * [Spring Data JPA数据持久化实战](samples/spring-boot-samples/jpa-in-action)
+* [Spring Security安全管理实战](samples/spring-boot-samples/security-in-action)
 
 ## 联系作者:
 
