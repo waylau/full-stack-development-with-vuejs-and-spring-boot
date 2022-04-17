@@ -2,7 +2,7 @@
   <n-list>
     <n-list-item v-for="item in newsData" :key="item.title">
       <div>
-        <router-link :to="'/news/' + item._id">{{ item.title }}</router-link>
+        <router-link :to="'/news/' + item.newsId">{{ item.title }}</router-link>
       </div>
     </n-list-item>
   </n-list>

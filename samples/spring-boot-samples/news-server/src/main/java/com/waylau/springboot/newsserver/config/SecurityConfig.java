@@ -1,9 +1,12 @@
 package com.waylau.springboot.newsserver.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
  * Spring Security 配置类.
@@ -13,25 +16,25 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  */
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    @Autowired
+    private UserDetailsService userDetailsService;
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                //.antMatchers("/**").permitAll() // 所有都不认证
+                .antMatchers("/news/**").permitAll() // 所有都不认证
                 .anyRequest().authenticated() // 所有请求都要认证
                 .and()
-                .httpBasic(); // 启用HTTP基本认证
+                .httpBasic()// 启用HTTP基本认证
+                .and().csrf().disable() // 禁用CSRF
+                ;
 
         http.anonymous();
     }
 
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("waylau") // 用户名
-                .password("{noop}waylau123") // Spring Security要求设置密码时设置加密算法，
-                // 为了简化演示，这里设置noop来指明不设置加密算法。
-                .roles("USER"); // 用户角色
-
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(userDetailsService)
+        .passwordEncoder(new BCryptPasswordEncoder());//添加加密类型Bcrypt加密算法
     }
 }

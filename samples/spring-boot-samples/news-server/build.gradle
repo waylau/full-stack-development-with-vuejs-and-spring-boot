@@ -24,6 +24,9 @@ dependencies {
 	// 添加 H2 的依赖
 	implementation 'com.h2database:h2:2.1.212'
 
+	// 添加 MySQL连接驱动的依赖
+	implementation 'mysql:mysql-connector-java:8.0.28'
+
 	// 该依赖用于测试阶段
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'

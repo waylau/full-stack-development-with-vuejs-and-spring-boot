@@ -9,5 +9,4 @@ class NewsServerApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

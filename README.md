@@ -1,5 +1,26 @@
 # Full Stack Development With Vue.js And Spring Boot. （Vue.js+Spring Boot全栈开发）源码
 
+## 所涉及的技术及相关版本
+
+* Node.js 17.3.0
+* npm 8.3.0
+* Vue CLI 4.5.15
+* vue-axios 3.4.1
+* md-editor-v3 1.11.5
+* Naive UI 2.25.1
+* NGINX 1.15.8
+* basic-auth 2.0.1
+* JDK 8
+* Gradle 7.4.2
+* Spring Boot 2.6.6
+* Spring MVC 5.3.18
+* Spring Data JPA 2.6.3
+* Hibernate 5.6.7
+* H2 2.1.212
+* MySQL 8.0.15
+* Spring Security 5.6.2
+
+## 示例
 
 * [Hello World](samples/vue-samples/hello-world)
 * [Hello World add TypeScript](samples/vue-samples/hello-world-add-ts)
@@ -62,6 +83,9 @@
 * [XML类型的处理](samples/spring-boot-samples/media-type-xml)
 * [Spring Data JPA数据持久化实战](samples/spring-boot-samples/jpa-in-action)
 * [Spring Security安全管理实战](samples/spring-boot-samples/security-in-action)
+* [“新闻头条”客户端端](samples/spring-boot-samples/news-ui)
+* [“新闻头条”服务端](samples/spring-boot-samples/news-server)
+
 
 ## 联系作者:
 
