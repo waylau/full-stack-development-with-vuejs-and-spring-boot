@@ -9,7 +9,6 @@
 * md-editor-v3 1.11.5
 * Naive UI 2.25.1
 * NGINX 1.15.8
-* basic-auth 2.0.1
 * JDK 8
 * Gradle 7.4.2
 * Spring Boot 2.6.6
