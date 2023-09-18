@@ -1,4 +1,4 @@
-# Full Stack Development With Vue.js And Spring Boot. （Vue.js+Spring Boot全栈开发）源码
+# Full Stack Development With Vue.js And Spring Boot. 《Vue.js+Spring Boot全栈开发实战》源码
 
 ## 所涉及的技术及相关版本
 
@@ -84,6 +84,36 @@
 * [Spring Security安全管理实战](samples/spring-boot-samples/security-in-action)
 * [“新闻头条”客户端端](samples/spring-boot-samples/news-ui)
 * [“新闻头条”服务端](samples/spring-boot-samples/news-server)
+
+
+
+## 配套书籍《Vue.js+Spring Boot全栈开发实战》
+
+与该源码配套的书籍《Vue.js+Spring Boot全栈开发实战》已经出版。
+
+![](images/nodejs.jpg)
+
+
+本书如有勘误，会在<https://github.com/waylau/full-stack-development-with-vuejs-and-nodejs/issues>上进行发布。由于笔者能力有限，时间仓促，难免错漏，欢迎读者批评指正。
+
+
+
+## 如何获取本书
+
+实体店及各大网店有售。据我所知有如下网站供应：
+
+* [京东](https://search.jd.com/Search?keyword=Vue.js%2BSpring%20Boot%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%20%E6%9F%B3%E4%BC%9F%E5%8D%AB&enc=utf-8&wq=Vue.js%2BSpring%20Boot%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%20%E6%9F%B3%E4%BC%9F%E5%8D%AB&pvid=92d1470d19544c83b44a8a23dd55e038)
+* [当当](http://search.dangdang.com/?key=Vue.js%2BSpring%20Boot%C8%AB%D5%BB%BF%AA%B7%A2%CA%B5%D5%BD%20%C1%F8%CE%B0%CE%C0&act=input)
+* [淘宝](https://s.taobao.com/search?commend=all&ie=utf8&initiative_id=tbindexz_20170306&q=Vue.js%2BSpring%20Boot%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%20%E6%9F%B3%E4%BC%9F%E5%8D%AB&search_type=item&sourceId=tb.index&spm=a21bo.jianhua.201856-taobao-item.2&ssid=s5-e)
+
+
+
+想低于市价得到本书？来[二手书集市](https://github.com/waylau/second-hand-books)试试看。
+
+
+也可以直接关注我博客（<https://waylau.com/>）或者我的开源书（<https://waylau.com/books/>）了解更多免费咨询。
+
+
 
 
 ## 联系作者:
